@@ -1,0 +1,7 @@
+@import "../../styles/helpers.scss";
+
+.testimonials {
+  @include section;
+
+  padding-top: 0;
+}

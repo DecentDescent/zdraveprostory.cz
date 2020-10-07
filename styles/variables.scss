@@ -1,0 +1,19 @@
+$color-red-crayola: #eb2f4a;
+$color-maximum-blue-green: #39bbc3;
+$color-dark-jungle-green: #1c211d;
+$color-alice-blue: #ebeff8;
+$color-platinum: #ebebeb;
+$color-light-steel-blue: #b5c7e0;
+$color-pale-cerulean: #a9c5db;
+$color-aqua-blue: #c3e6e8;
+
+$font-primary: "Arial", "Helvetica", sans-serif;
+
+$container-big: 1400px;
+$gutter: 8px;
+
+$gradient: linear-gradient(
+  130deg,
+  $color-maximum-blue-green 0%,
+  $color-pale-cerulean 100%
+);
