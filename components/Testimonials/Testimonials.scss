@@ -2,6 +2,50 @@
 
 .testimonials {
   @include section;
-
   padding-top: 0;
+}
+
+.testimonials-boxes {
+  display: grid;
+  max-width: 1000px;
+  margin: $gutter * 4 auto 0 auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: $gutter * 3;
+  grid-row-gap: $gutter * 3;
+  align-content: center;
+  justify-items: center;
+
+  @media (max-width: 820px) {
+    grid-template-columns: 1fr;
+    grid-column-gap: $gutter;
+    grid-row-gap: $gutter;
+  }
+
+  .testimonials-boxes__box {
+    font-size: 24px;
+    padding: 24px;
+    text-align: center;
+
+    .avatar {
+      width: 168px;
+      height: 168px;
+      border-radius: 50%;
+      margin: 0 auto $gutter * 3;
+      border: 8px solid $color-pale-cerulean;
+    }
+
+    p {
+      max-width: 40ch;
+      font-size: 15px;
+      font-weight: 400;
+      font-style: italic;
+    }
+
+    &:nth-child(2) {
+      margin-top: 24px;
+      @media (max-width: 820px) {
+        margin-top: initial;
+      }
+    }
+  }
 }

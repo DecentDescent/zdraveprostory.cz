@@ -1,1 +1,45 @@
 @import "../../styles/helpers.scss";
+
+.about {
+  @include section;
+  padding-bottom: 0;
+}
+
+.about-boxes {
+  display: grid;
+  max-width: 850px;
+  margin: $gutter * 4 auto 0 auto;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0;
+  grid-row-gap: 0;
+  align-content: center;
+  justify-items: center;
+
+  @media (max-width: 680px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (max-width: 480px) {
+    grid-template-columns: 1fr;
+  }
+  .about-boxes__box {
+    font-size: 24px;
+    padding: 24px;
+    text-align: center;
+
+    svg {
+      width: 100px;
+      height: 100px;
+
+      @media (max-width: 750px) {
+        width: 64px;
+        height: 64px;
+      }
+    }
+
+    p {
+      max-width: 30ch;
+    }
+  }
+}

@@ -1,5 +1,5 @@
 import "../styles/global.scss";
-import Header from "../components/Header";
+import Head from "../components/Head";
 import Hero from "../components/Hero";
 import Reasons from "../components/Reasons";
 import About from "../components/About";
@@ -9,7 +9,7 @@ import Footer from "../components/Footer";
 const Index = () => {
   return (
     <>
-      <Header />
+      <Head />
       <Hero />
       <Reasons />
       <About />
