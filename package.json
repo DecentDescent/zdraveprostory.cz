@@ -1,7 +1,7 @@
 {
   "name": "zdraveprostory.cz",
-  "description": "Web presentation for Soky",
-  "license": "MIT",
+  "description": "New website of Zdravé prostory",
+  "license": "Unlicensed",
   "scripts": {
     "dev": "next",
     "build": "next build",
@@ -11,11 +11,12 @@
     "@zeit/next-sass": "^1.0.1",
     "classnames": "^2.2.6",
     "next": "^9.1.4",
-    "nextjs-redirect": "^1.1.2",
+    "next-compose-plugins": "^2.1.1",
+    "next-routes": "^1.1.0",
     "node-sass": "^4.13.0",
     "react": "^16.10.0",
     "react-dom": "^16.10.0",
-    "react-reveal": "^1.2.2"
+    "react-ga": "^3.1.2"
   },
   "now": {
     "alias": "zdraveprostory.cz"
