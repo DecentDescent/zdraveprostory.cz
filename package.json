@@ -10,7 +10,7 @@
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
     "classnames": "^2.2.6",
-    "next": "^9.1.4",
+    "next": "^9.5.4",
     "next-compose-plugins": "^2.1.1",
     "react-background-slideshow": "^1.0.4",
     "next-routes": "^1.1.0",
