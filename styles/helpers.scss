@@ -2,14 +2,14 @@
 
 @mixin section {
   width: 100%;
-  padding: 64px;
+  padding: 0;
 }
 
 .container {
   width: 100%;
   max-width: 1500px;
   margin: 0 auto;
-  padding: 32px 0;
+  padding: $gutter * 6 $gutter * 4;
 }
 
 h1 {
@@ -18,6 +18,10 @@ h1 {
   font-weight: 700;
   max-width: 70ch;
   margin: $gutter * 4 auto;
+
+  &.subheading {
+    margin-top: $gutter * 10;
+  }
 }
 
 h2 {
@@ -51,7 +55,7 @@ p.lead {
   font-weight: 400;
   line-height: 1.2;
   max-width: 60ch;
-  margin: 0 auto;
+  margin: 0 auto $gutter * 4;
 }
 
 strong {

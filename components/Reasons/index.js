@@ -2,7 +2,7 @@ import styles from "./Reasons.scss";
 
 const Reasons = () => {
   return (
-    <section className={styles["reasons"]}>
+    <section className={styles["reasons"]} id="proc-spolupracovat">
       <div className={styles["container"]}>
         <h1>7 důvodů, proč spolupracovat s námi</h1>
         <p className={styles["lead"]}>
@@ -20,11 +20,10 @@ const Reasons = () => {
             </svg>
             <h2>120 dní</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              orci lacus, faucibus ut viverra et, efficitur vel leo.
+              Zapomeňte na každodenní dezinfikování povrchů. Stačí, když se u
+              vás zastavíme jednou za čtyři měsíce.
             </p>
           </div>
-
           <div className={styles["reasons-boxes__box"]}>
             <svg viewBox="0 0 510 510">
               <path d="m255.049 61.581c-128.239-35.901-255.049 61.037-255.049 193.416 0 132.633 127.041 229.252 255.049 193.415 128.417 35.981 254.951-61.303 254.951-193.415 0-132.26-126.692-229.352-254.951-193.416zm-225.049 193.416c0-95.121 78.14-172.342 173.652-170.804-57.16 35.44-95.315 98.746-95.315 170.804s38.155 135.364 95.315 170.804c-95.51 1.538-173.652-75.681-173.652-170.804zm279.169 170.831c-94.197 0-170.831-76.635-170.831-170.831s76.634-170.831 170.831-170.831 170.831 76.635 170.831 170.831-76.634 170.831-170.831 170.831z" />
@@ -32,11 +31,33 @@ const Reasons = () => {
             </svg>
             <h2>Úspora</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              orci lacus, faucibus ut viverra et, efficitur vel leo.
+              Abyste dosáhli stejných účinků s běžnou dezinfekcí, museli byste
+              pro 24h ochranu dezinfikovat 96krát denně, a to by vás vyšlo pěkně
+              draho.
             </p>
           </div>
-
+          <div className={styles["reasons-boxes__box"]}>
+            <svg viewBox="0 0 510 510">
+              <path d="m255.049 61.581c-128.239-35.901-255.049 61.037-255.049 193.416 0 132.633 127.041 229.252 255.049 193.415 128.417 35.981 254.951-61.303 254.951-193.415 0-132.26-126.692-229.352-254.951-193.416zm-225.049 193.416c0-95.121 78.14-172.342 173.652-170.804-57.16 35.44-95.315 98.746-95.315 170.804s38.155 135.364 95.315 170.804c-95.51 1.538-173.652-75.681-173.652-170.804zm279.169 170.831c-94.197 0-170.831-76.635-170.831-170.831s76.634-170.831 170.831-170.831 170.831 76.635 170.831 170.831-76.634 170.831-170.831 170.831z" />
+              <path d="m330.432 239.997h-42.526c-12.787 0-23.19-10.402-23.19-23.189 0-12.83 10.385-23.19 23.185-23.19.095.001.19 0 .287.001h40.749c8.579.079 17.034 3.897 23.204 10.48 5.665 6.045 15.159 6.354 21.202.687 6.044-5.665 6.353-15.157.688-21.202-14.189-15.139-30.512-19.965-49.861-19.965v-17.972c0-8.284-6.716-15-15-15s-15 6.716-15 15v17.972c-39.826 0-59.453 25.908-59.453 53.189 0 29.329 23.861 53.189 53.19 53.189h42.526c12.787 0 23.189 10.402 23.189 23.189 0 12.83-10.385 23.19-23.185 23.19-.095 0-.19-.001-.287-.001h-44.458c-6.177-.058-12.424-2.157-18.068-6.073-6.807-4.723-16.153-3.032-20.875 3.773-4.722 6.807-3.033 16.152 3.773 20.875 18.34 12.724 34.002 11.425 43.646 11.425v17.972c0 8.284 6.716 15 15 15s15-6.716 15-15v-17.972c40.3 0 59.453-26.402 59.453-53.189.001-29.329-23.86-53.189-53.189-53.189z" />
+            </svg>
+            <h2>Zdraví</h2>
+            <p>
+              GCA Antivir neobsahuje dráždivý chlór, neničí ruce ani plíce, je
+              100% biologicky odbouratelný a zcela bez parfému.
+            </p>
+          </div>
+          <div className={styles["reasons-boxes__box"]}>
+            <svg viewBox="0 0 510 510">
+              <path d="m255.049 61.581c-128.239-35.901-255.049 61.037-255.049 193.416 0 132.633 127.041 229.252 255.049 193.415 128.417 35.981 254.951-61.303 254.951-193.415 0-132.26-126.692-229.352-254.951-193.416zm-225.049 193.416c0-95.121 78.14-172.342 173.652-170.804-57.16 35.44-95.315 98.746-95.315 170.804s38.155 135.364 95.315 170.804c-95.51 1.538-173.652-75.681-173.652-170.804zm279.169 170.831c-94.197 0-170.831-76.635-170.831-170.831s76.634-170.831 170.831-170.831 170.831 76.635 170.831 170.831-76.634 170.831-170.831 170.831z" />
+              <path d="m330.432 239.997h-42.526c-12.787 0-23.19-10.402-23.19-23.189 0-12.83 10.385-23.19 23.185-23.19.095.001.19 0 .287.001h40.749c8.579.079 17.034 3.897 23.204 10.48 5.665 6.045 15.159 6.354 21.202.687 6.044-5.665 6.353-15.157.688-21.202-14.189-15.139-30.512-19.965-49.861-19.965v-17.972c0-8.284-6.716-15-15-15s-15 6.716-15 15v17.972c-39.826 0-59.453 25.908-59.453 53.189 0 29.329 23.861 53.189 53.19 53.189h42.526c12.787 0 23.189 10.402 23.189 23.189 0 12.83-10.385 23.19-23.185 23.19-.095 0-.19-.001-.287-.001h-44.458c-6.177-.058-12.424-2.157-18.068-6.073-6.807-4.723-16.153-3.032-20.875 3.773-4.722 6.807-3.033 16.152 3.773 20.875 18.34 12.724 34.002 11.425 43.646 11.425v17.972c0 8.284 6.716 15 15 15s15-6.716 15-15v-17.972c40.3 0 59.453-26.402 59.453-53.189.001-29.329-23.86-53.189-53.189-53.189z" />
+            </svg>
+            <h2>Ochrana</h2>
+            <p>
+              Garantujeme ochranu toho nejdůležitějšího, co máte – zdraví vašich
+              blízkých, kolegů i zaměstnanců.
+            </p>
+          </div>
           <div className={styles["reasons-boxes__box"]}>
             <svg viewBox="0 0 510 510">
               <path d="m255.049 61.581c-128.239-35.901-255.049 61.037-255.049 193.416 0 132.633 127.041 229.252 255.049 193.415 128.417 35.981 254.951-61.303 254.951-193.415 0-132.26-126.692-229.352-254.951-193.416zm-225.049 193.416c0-95.121 78.14-172.342 173.652-170.804-57.16 35.44-95.315 98.746-95.315 170.804s38.155 135.364 95.315 170.804c-95.51 1.538-173.652-75.681-173.652-170.804zm279.169 170.831c-94.197 0-170.831-76.635-170.831-170.831s76.634-170.831 170.831-170.831 170.831 76.635 170.831 170.831-76.634 170.831-170.831 170.831z" />
@@ -44,8 +65,8 @@ const Reasons = () => {
             </svg>
             <h2>Schváleno SZÚ</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              orci lacus, faucibus ut viverra et, efficitur vel leo.
+              Používáme certifikovanou ochranu GCA Antivir, jejíž účinek je
+              garantován Státním zdravotním ústavem.
             </p>
           </div>
 
@@ -56,8 +77,9 @@ const Reasons = () => {
             </svg>
             <h2>Certifikace</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              orci lacus, faucibus ut viverra et, efficitur vel leo.
+              Každý ｐrostor, který ošetříme, od nás dostane certifikát, díky
+              kterému budete v klidu vy, vaši zaměstnanci, zákazníci či
+              návštěvníci.
             </p>
           </div>
 
@@ -68,8 +90,8 @@ const Reasons = () => {
             </svg>
             <h2>Odolnost</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              orci lacus, faucibus ut viverra et, efficitur vel leo.
+              Díky nanotechnologii mají všechny ošetřené povrchy vynikající
+              ochranu proti znečištění a tím velmi usnadňují každodenní úklid.
             </p>
           </div>
         </div>

@@ -2,7 +2,6 @@
 
 .about {
   @include section;
-  padding-bottom: 0;
 }
 
 .about-boxes {
@@ -11,8 +10,8 @@
   margin: $gutter * 4 auto 0 auto;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 0;
-  grid-row-gap: 0;
+  column-gap: 0;
+  row-gap: 0;
   align-content: center;
   justify-items: center;
 
@@ -25,9 +24,16 @@
   }
   .about-boxes__box {
     font-size: 24px;
-    padding: 24px;
+    padding: $gutter * 3;
     text-align: center;
 
+    .box__icon {
+      width: 116px;
+      height: 116px;
+      border-radius: 50%;
+      background: $color-icon-background;
+      margin-bottom: $gutter * 2;
+    }
     svg {
       width: 100px;
       height: 100px;

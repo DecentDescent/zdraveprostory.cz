@@ -1,19 +1,19 @@
-$color-red-crayola: #eb2f4a;
-$color-maximum-blue-green: #39bbc3;
-$color-dark-jungle-green: #1c211d;
-$color-alice-blue: #ebeff8;
-$color-platinum: #ebebeb;
-$color-light-steel-blue: #b5c7e0;
-$color-pale-cerulean: #a9c5db;
-$color-aqua-blue: #c3e6e8;
-
+$color-brand-primary: #169ba2;
+$color-brand-secondary: #de3452;
+$color-section-background: #ebeff6;
+$color-text: #272727;
+$color-icon-background: #c3e5e7;
+$color-input: #d9dce2;
+$color-input-placeholder: #696a74;
+$color-white: #ffffff;
+$color-gradient-start: #3ebac5;
+$color-gradient-end: #a3c4d9;
 $font-primary: "Arial", "Helvetica", sans-serif;
-
-$container-big: 1400px;
-$gutter: 8px;
 
 $gradient: linear-gradient(
   130deg,
-  $color-maximum-blue-green 0%,
-  $color-pale-cerulean 100%
+  $color-gradient-start 0%,
+  $color-gradient-end 100%
 );
+$container-big: 1400px;
+$gutter: 8px;

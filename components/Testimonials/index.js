@@ -2,44 +2,19 @@ import styles from "./Testimonials.scss";
 
 const Testimonials = () => {
   return (
-    <section className={styles["testimonials"]}>
+    <section className={styles["testimonials"]} id="reference">
       <div className={styles["container"]}>
-        <h1>Jak to vidí naši zákazníci?</h1>
+        <h1>Kde již mají zdravé prostory?</h1>
         <p className={styles["lead"]}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci
-          lacus, faucibus ut viverra et, efficitur vel leo. Quisque faucibus
-          turpis ac ligula mollis suscipit. Morbi volutpat efficitur eros. Lorem
-          ipsum dolor sit amet, consectetur adipiscing elit. Quisque orci lacus,
-          faucibus ut viverra et, efficitur vel leo.
+          GCA Antivirem jsou již ošetřeny prostory v soukromých firmách,
+          institucích, sportovních zařízeních i domácnostech.
         </p>
-
-        <div className={styles["testimonials-boxes"]}>
-          <div className={styles["testimonials-boxes__box"]}>
-            <div className={styles["avatar"]}></div>
-            <h3>Ivan D. | RealityKing | Třebíč</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              orci lacus, faucibus ut viverra et, efficitur vel leo.
-            </p>
-          </div>
-
-          <div className={styles["testimonials-boxes__box"]}>
-            <div className={styles["avatar"]}></div>
-            <h3>Pavla P. | PéCafé | Kladno</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              orci lacus, faucibus ut viverra et, efficitur vel leo.
-            </p>
-          </div>
-
-          <div className={styles["testimonials-boxes__box"]}>
-            <div className={styles["avatar"]}></div>
-            <h3>Karolína M. | Tábor</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-              orci lacus, faucibus ut viverra et, efficitur vel leo.
-            </p>
-          </div>
+        <div className={styles["testimonials__container"]}>
+          <img src="/static/graphics/1.png" />
+          <img src="/static/graphics/2.png" />
+          <img src="/static/graphics/3.png" />
+          <img src="/static/graphics/4.png" />
+          <img src="/static/graphics/5.png" />
         </div>
       </div>
     </section>
