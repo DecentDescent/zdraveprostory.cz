@@ -10,11 +10,11 @@ const Testimonials = () => {
           institucích, sportovních zařízeních i domácnostech.
         </p>
         <div className={styles["testimonials__container"]}>
-          <img src="/static/graphics/1.png" />
-          <img src="/static/graphics/2.png" />
-          <img src="/static/graphics/3.png" />
-          <img src="/static/graphics/4.png" />
-          <img src="/static/graphics/5.png" />
+          <a href="https://www.fkpribram.cz/" target="_blank"><img src="/static/graphics/1.png" /></a>
+          <a href="http://www.zzspk.cz/" target="_blank"><img src="/static/graphics/2.png" /></a>
+          <a href="https://www.divadlonajezerce.cz/uvod" target="_blank"><img src="/static/graphics/3.png" /></a>
+          <a href="https://www.dpmb.cz/cs/novinky/all" target="_blank"><img src="/static/graphics/4.png" /></a>
+          <a href="https://www.ccrjm.cz/" target="_blank"><img src="/static/graphics/5.png" /></a>
         </div>
       </div>
     </section>

@@ -10,6 +10,10 @@
   max-width: 1500px;
   margin: 0 auto;
   padding: $gutter * 6 $gutter * 4;
+
+  @media (max-width: $go-mobile) {
+    padding: $gutter * 6 $gutter * 2;
+  }
 }
 
 h1 {
@@ -20,7 +24,7 @@ h1 {
   margin: $gutter * 4 auto;
 
   &.subheading {
-    margin-top: $gutter * 10;
+    margin-top: $gutter * 2;
   }
 }
 
@@ -56,6 +60,10 @@ p.lead {
   line-height: 1.2;
   max-width: 60ch;
   margin: 0 auto $gutter * 4;
+
+  @media (max-width: $go-mobile) {
+    font-size: 19px;
+  }
 }
 
 strong {

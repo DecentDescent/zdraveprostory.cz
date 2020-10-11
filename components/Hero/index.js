@@ -12,7 +12,7 @@ const Hero = () => {
     <section className={styles["hero"]}>
       <div className={styles["container"]}>
         <Header />
-        <div>
+        <div className={styles["hero__text"]}>
           <h1>
             Zajišťujeme dlouhodobou ochranu proti <span>bakteriím a virům</span>
           </h1>

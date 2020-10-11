@@ -25,4 +25,8 @@ body {
   .box-gallery .bg-img {
     background: transparent !important;
   }
+
+  body.nav-active {
+    overflow: hidden;
+  }
 }

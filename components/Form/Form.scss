@@ -10,11 +10,13 @@
     display: flex;
     justify-content: center;
 
-    @media (max-width: 850px) {
+    @media (max-width: $go-mobile) {
       flex-direction: column;
+      align-items: center;
     }
 
     input {
+      width: 100%;
       appearance: none;
       border: none;
       background: $color-input;
@@ -25,6 +27,7 @@
       outline: none;
       float: left;
       min-width: 250px;
+      max-width: 250px;
       font-weight: 500;
       margin-right: $gutter * 2;
       border: 2px solid rgba($color-brand-primary, 0);
@@ -39,12 +42,14 @@
         box-shadow: 0 0 5px 5px rgba($color-brand-primary, 0.2);
       }
 
-      @media (max-width: 850px) {
+      @media (max-width: $go-mobile) {
         margin: $gutter 0;
+        max-width: 450px;
       }
     }
 
     button {
+      width: 100%;
       appearance: none;
       border: none;
       background: $gradient;
@@ -54,6 +59,7 @@
       font-weight: 500;
       padding: $gutter $gutter;
       min-width: 250px;
+      max-width: 250px;
       color: $color-white;
       outline: none;
       cursor: pointer;
@@ -64,15 +70,17 @@
       &:hover {
         box-shadow: 0 0 5px 5px rgba($color-brand-primary, 0.2);
       }
-      @media (max-width: 850px) {
+      @media (max-width: $go-mobile) {
         margin: $gutter * 2 0;
+        max-width: 450px;
       }
     }
   }
 
   &.form--compact {
     background: none;
-    padding: 0;
+    padding: 0 $gutter * 4;
+
     .container {
       padding: $gutter * 3 0;
 

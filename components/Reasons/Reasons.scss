@@ -8,7 +8,7 @@
 
 .reasons-boxes {
   display: grid;
-  max-width: 850px;
+  max-width: $go-mobile;
   margin: $gutter * 4 auto 0 auto;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(3, 1fr);
