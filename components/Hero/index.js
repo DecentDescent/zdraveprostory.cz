@@ -17,9 +17,9 @@ const Hero = () => {
             Zajišťujeme dlouhodobou ochranu proti <span>bakteriím a virům</span>
           </h1>
           <p>
-            Používáme dezinfekční ochranu GCA Protectvir, která si poradí s
-            většinou bakterií a virů - <strong>včetně koronavirů</strong> a vaše
-            okolí <strong>ochrání až na 120 dnů.</strong>
+            Používáme dezinfekční ochranu GCA Antivir, která si poradí s
+            většinou bakterií a virů – <strong>včetně koronavirů</strong> a vaše
+            okolí ochráníme až <strong>na 120 dnů.</strong>
           </p>
         </div>
         <Form compact="true" />

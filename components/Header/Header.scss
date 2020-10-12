@@ -170,12 +170,16 @@ header.header {
 
       svg {
         width: 32px;
+        margin-right: $gutter / 2;
+
+        @media (max-width: 1200px) {
+          display: none;
+        }
       }
 
       div {
         align-items: center;
         justify-content: center;
-        padding-left: $gutter / 2;
 
         h4 {
           font-size: 14px;

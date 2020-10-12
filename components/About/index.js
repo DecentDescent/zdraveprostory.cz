@@ -6,20 +6,24 @@ const About = () => {
       <div className={styles["container"]}>
         <h1>S čím pracujeme?</h1>
         <p className={styles["lead"]}>
-          Pro dezinfekci prostor používáme patentovaný produkt GCA Antivir. Ten
-          po aplikaci na povrch vytvoří ultratenkou antibakteriální vrstvu,
-          která zabraňuje přežití a množení virů, bakterií, řas, mechu i plísní.
-          Nanočástice se chemicky naváží na materiál povrchu a tím umožní
-          dlouhodobý účinek, navíc chrání před viditelným znečištěním a
-          usazováním povlaku. GCA Antivir je navíc šetrný k životnímu prostředí
-          a 100% biologicky odbouratelný.
+          Pro dezinfekci prostor používáme patentovaný produkt{" "}
+          <strong>GCA Antivir</strong>. Ten po aplikaci na povrch vytvoří
+          <strong>ultratenkou antibakteriální vrstvu</strong>, která zabraňuje
+          přežití a množení virů, bakterií, řas, mechu i plísní. Nanočástice se
+          chemicky naváží na materiál povrchu a tím umožní dlouhodobý účinek,
+          navíc{" "}
+          <strong>
+            chrání před viditelným znečištěním a usazováním povlaku
+          </strong>
+          . GCA Antivir je navíc šetrný k životnímu prostředí a{" "}
+          <strong>100% biologicky odbouratelný</strong>.
         </p>
       </div>
       <div className={styles["container"]} id="co-umime">
         <h1 className={styles["subheading"]}>Co všechno umíme ochránit?</h1>
         <p className={styles["lead"]}>
-          Aplikovat GCA Antivir lze téměř na jakýkoli pevný materiál, kůži nebo
-          textil, kde je žádoucí bezinfekčnost a čistota.
+          Aplikovat GCA Antivir lze na jakýkoliv pevný materiál, kůži nebo
+          textil, kde je žádoucí <strong>bezinfekčnost a čistota</strong>.
         </p>
 
         <div className={styles["about-boxes"]}>

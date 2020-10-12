@@ -26,13 +26,13 @@ const Form = (props) => {
 
         <div className={styles["form__container"]}>
           <input type="text" placeholder="váše telefonní číslo / email" />
-          <input type="text" placeholder="přibližná velikost prostor v m2 " />
+          <input type="text" placeholder="přibližná velikost prostor v m2" />
           <button>Odeslat</button>
         </div>
-        <p className={styles["form__error"]}>Vyplňte, prosím, obě pole</p>
+        {/* <p className={styles["form__error"]}>Vyplňte, prosím, obě pole</p>
         <p className={styles["form__ok"]}>
           Nezávazná poptávka odeslána, děkujeme!
-        </p>
+        </p> */}
       </div>
     </section>
   );

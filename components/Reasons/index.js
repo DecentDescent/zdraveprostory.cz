@@ -7,9 +7,9 @@ const Reasons = () => {
         <h1>7 důvodů, proč spolupracovat s námi</h1>
         <p className={styles["lead"]}>
           Standardní dezinfekce fungují jen po dobu, než se tekutina odpaří.
-          poté jsou povrchy opět zdrojem virové nebo bakteriální nákazy. S námi
+          Poté jsou povrchy opět zdrojem virové nebo bakteriální nákazy. S námi
           máte garantovanou ochranu nejen před bakteriemi a viry, ale i{" "}
-          <strong>před těmi nejzákeřnějšími koronaviry.</strong>
+          <strong>před těmi nejzákeřnějšími koronaviry</strong>.
         </p>
 
         <div className={styles["reasons-boxes"]}>
@@ -59,7 +59,7 @@ const Reasons = () => {
             </svg>
             <h2>120 dní</h2>
             <p>
-              Zapomeňte na každodenní dezinfikování povrchů. Stačí, když se u
+              Zapomeňte na každodenní dezinfikování povrchů. Stačí, když se u
               vás zastavíme jednou za čtyři měsíce.
             </p>
           </div>
@@ -208,7 +208,7 @@ const Reasons = () => {
             <h2>Ochrana</h2>
             <p>
               Garantujeme ochranu toho nejdůležitějšího, co máte – zdraví vašich
-              blízkých, kolegů i zaměstnanců.
+              blízkých, kolegů i zaměstnanců.
             </p>
           </div>
           <div className={styles["reasons-boxes__box"]}>
@@ -255,8 +255,10 @@ const Reasons = () => {
             </svg>
             <h2>Schváleno SZÚ</h2>
             <p>
-              Používáme certifikovanou ochranu GCA Antivir, jejíž účinek je
-              garantován Státním zdravotním ústavem.
+              Používáme certifikovanou ochranu GCA Antivir, která si poradí s
+              bakteriemi a viry - včetně koronavirů a vaše okolí bezpečně
+              ochrání na 120 dní. Účinek je garantován Státním zdravotním
+              ústavem.
             </p>
           </div>
 
@@ -306,8 +308,8 @@ const Reasons = () => {
             </svg>
             <h2>Certifikace</h2>
             <p>
-              Každý ｐrostor, který ošetříme, od nás dostane certifikát, díky
-              kterému budete v klidu vy, vaši zaměstnanci, zákazníci či
+              Každý prostor, který ošetříme, od nás dostane certifikát, díky
+              kterému budete v klidu vy, vaši zaměstnanci, zákazníci či
               návštěvníci.
             </p>
           </div>
