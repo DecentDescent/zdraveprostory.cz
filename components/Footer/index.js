@@ -27,7 +27,10 @@ const Footer = () => {
           <br />
           Zlonínská 259, 250 63 Mratín
         </p>
-        © 2020 Zdravé Prostory
+        <p>
+          <a href="mailto:info@zdraveprostory.cz">info&#64;zdraveprostory.cz</a>
+        </p>
+        <small>© 2020 Zdraveprostory.cz s.r.o.</small>
       </div>
     </footer>
   );

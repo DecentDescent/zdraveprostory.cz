@@ -47,5 +47,22 @@ footer.footer {
       font-size: 14px;
       font-weight: bold;
     }
+    a {
+      padding-top: $gutter * 2;
+      color: $color-white;
+      text-decoration: none;
+
+      &:hover {
+        color: $color-brand-secondary;
+      }
+    }
+
+    small {
+      opacity: 0.5;
+      font-size: 13px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
   }
 }

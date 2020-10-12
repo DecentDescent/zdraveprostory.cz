@@ -96,3 +96,13 @@
     }
   }
 }
+
+.form__error {
+  color: $color-brand-secondary;
+  font-weight: bold;
+}
+
+.form__ok {
+  color: $color-brand-primary;
+  font-weight: bold;
+}

@@ -1,5 +1,5 @@
-import styles from "./Form.scss";
 import classnames from "classnames";
+import styles from "./Form.scss";
 
 const Form = (props) => {
   return (
@@ -29,6 +29,10 @@ const Form = (props) => {
           <input type="text" placeholder="přibližná velikost prostor v m2 " />
           <button>Odeslat</button>
         </div>
+        <p className={styles["form__error"]}>Vyplňte, prosím, obě pole</p>
+        <p className={styles["form__ok"]}>
+          Nezávazná poptávka odeslána, děkujeme!
+        </p>
       </div>
     </section>
   );
