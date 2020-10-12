@@ -1,12 +1,7 @@
 import styles from "./Hero.scss";
 import Header from "../Header";
 import Form from "../Form";
-const images = [
-  "/static/graphics/bg_1.png",
-  "/static/graphics/bg_2.png",
-  "/static/graphics/bg_3.png",
-  "/static/graphics/bg_4.png",
-];
+
 const Hero = () => {
   return (
     <section className={styles["hero"]}>
@@ -26,6 +21,7 @@ const Hero = () => {
       </div>
       <div className={styles["hero__background"]}>
         <div className={styles["slides"]}>
+          <div className={styles["background__slide"]}></div>
           <div className={styles["background__slide"]}></div>
           <div className={styles["background__slide"]}></div>
           <div className={styles["background__slide"]}></div>

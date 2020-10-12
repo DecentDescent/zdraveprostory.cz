@@ -57,6 +57,16 @@ footer.footer {
       }
     }
 
+    svg {
+      width: 28px;
+      fill: $color-white;
+      margin-bottom: $gutter * 3;
+      transition: all 0.24s;
+
+      &:hover {
+        fill: $color-brand-secondary;
+      }
+    }
     small {
       opacity: 0.5;
       font-size: 13px;

@@ -12,6 +12,23 @@
   }
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  2.5% {
+    opacity: 1;
+  }
+  22.5% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 section.hero {
   @include section;
   width: 100%;
@@ -80,21 +97,35 @@ section.hero {
       left: 0;
       right: 0;
       bottom: 0;
+      opacity: 0;
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center right;
 
       &:nth-child(1) {
         background-image: url(/static/graphics/bg_4.png);
+        animation: fadeIn 40s 27s forwards infinite;
+        z-index: 1;
       }
       &:nth-child(2) {
         background-image: url(/static/graphics/bg_3.png);
+        animation: fadeIn 40s 18s forwards infinite;
+        z-index: 1;
       }
       &:nth-child(3) {
         background-image: url(/static/graphics/bg_2.png);
+        animation: fadeIn 40s 9s forwards infinite;
+        z-index: 1;
       }
       &:nth-child(4) {
         background-image: url(/static/graphics/bg_1.png);
+        animation: fadeIn 40s 0s forwards infinite;
+        z-index: 1;
+      }
+      &:nth-child(5) {
+        background-image: url(/static/graphics/bg_1.png);
+        z-index: 0;
+        opacity: 1;
       }
     }
   }
