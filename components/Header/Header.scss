@@ -8,7 +8,11 @@ header.header {
   justify-content: space-between;
   margin-bottom: $gutter * 2;
   padding: 0 16px;
-
+  .header__logo {
+    svg {
+      height: 48px;
+    }
+  }
   .header__navigation {
     .navigation__toggle {
       svg {
@@ -77,6 +81,10 @@ header.header {
             @media (max-width: 980px) {
               font-size: 14px;
               padding: $gutter;
+            }
+
+            @media (max-width: 950px) {
+              font-size: 13px;
             }
 
             &:hover {

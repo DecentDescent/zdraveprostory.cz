@@ -10,10 +10,6 @@
   max-width: 1500px;
   margin: 0 auto;
   padding: $gutter * 6 $gutter * 4;
-
-  @media (max-width: $go-mobile) {
-    padding: $gutter * 6 $gutter * 2;
-  }
 }
 
 h1 {
@@ -63,6 +59,7 @@ p.lead {
 
   @media (max-width: $go-mobile) {
     font-size: 19px;
+    max-width: 40ch;
   }
 }
 

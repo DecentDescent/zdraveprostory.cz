@@ -24,7 +24,7 @@ section.hero {
     justify-content: space-between;
     z-index: 1;
     @media (max-width: $go-mobile) {
-      padding-top: 24px;
+      padding: $gutter * 3 $gutter * 2 $gutter * 6 $gutter * 2;
     }
   }
   h1 {
