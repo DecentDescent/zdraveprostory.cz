@@ -24,6 +24,7 @@ header.header {
         top: 40px;
         right: 32px;
         z-index: 999;
+        fill: $color-brand-primary;
       }
 
       &:hover {
@@ -91,35 +92,6 @@ header.header {
               color: $color-brand-primary;
             }
           }
-
-          &.mobile-contact {
-            display: none;
-            text-align: center;
-            border-top: 1px solid rgba($color-brand-primary, 0.1);
-            padding-top: $gutter * 3;
-            svg {
-              fill: $color-brand-primary;
-              width: 42px;
-              margin: $gutter auto;
-            }
-            h4 {
-              font-size: 18px;
-              font-weight: 400;
-              color: $color-brand-primary;
-              margin: $gutter 0;
-            }
-
-            span {
-              font-size: 18px;
-              color: $color-brand-secondary;
-              font-weight: bold;
-            }
-
-            @media (max-width: $go-mobile) {
-              display: flex;
-              flex-direction: column;
-            }
-          }
         }
       }
 
@@ -159,6 +131,9 @@ header.header {
   }
 
   .header__call {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     div.call__container {
       display: flex;
       flex-direction: row;
@@ -204,6 +179,32 @@ header.header {
 
     @media (max-width: $go-mobile) {
       display: none;
+    }
+  }
+}
+
+.facebook {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 16px;
+
+  @media (max-width: 1080px) {
+    display: none;
+  }
+
+  svg {
+    width: 24px;
+    height: 24px;
+    transition: all 0.24s;
+    fill: $color-text;
+  }
+
+  &:hover {
+    svg  {
+      fill: $color-brand-primary;
     }
   }
 }
