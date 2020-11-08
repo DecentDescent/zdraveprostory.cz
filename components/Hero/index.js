@@ -17,7 +17,7 @@ const Hero = () => {
             ochráníme <strong>na 120 dnů.</strong>
           </p>
         </div>
-        {/* <Form compact="true" /> */}
+        <Form compact="true" />
       </div>
       <div className={styles["hero__background"]}>
         <div className={styles["slides"]}>
