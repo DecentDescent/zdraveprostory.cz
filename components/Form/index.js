@@ -44,23 +44,25 @@ export default function Form(props) {
         })}
       >
         <div className={styles["container"]}>
-          <p className={styles["form__info"]}>
-            <strong>Ozveme se</strong>. Nechte nám na sebe kontakt a vytvoříme
-            vám nabídku na míru.
-          </p>
-
-          <>
-            <h1>Ozveme se</h1>
-            <p className={styles["lead"]}>
-              Nechte nám na sebe kontakt a vytvoříme vám nabídku na míru.
+          {props.compact ? (
+            <p className={styles["form__info"]}>
+              <strong>Ozveme se</strong>. Nechte nám na sebe kontakt a vytvoříme
+              vám nabídku na míru.
             </p>
-          </>
+          ) : (
+            <>
+              <h1>Ozveme se</h1>
+              <p className={styles["lead"]}>
+                Nechte nám na sebe kontakt a vytvoříme vám nabídku na míru.
+              </p>
+            </>
+          )}
           <div className={styles["form__container"]}>
             <input
               type="text"
               name="contact"
               placeholder="váše telefonní číslo / email"
-              maxLength="64"
+              maxLength="5"
             />
             <input
               type="text"
