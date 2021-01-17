@@ -208,3 +208,25 @@ header.header {
     }
   }
 }
+
+.navigation__call {
+  @media (min-width: $go-mobile + 1) {
+    display: none;
+  }
+
+  svg {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    transition: fill 0.24s;
+    position: absolute;
+    top: 40px;
+    right: 82px;
+    z-index: 999;
+    fill: $color-brand-primary;
+  }
+
+  &:hover svg {
+    fill: $color-brand-secondary;
+  }
+}
