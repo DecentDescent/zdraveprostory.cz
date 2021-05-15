@@ -62,13 +62,11 @@ export default function Form(props) {
               type="text"
               name="contact"
               placeholder="váše telefonní číslo / email"
-              maxLength="5"
             />
             <input
               type="text"
               name="meters"
               placeholder="přibližná velikost prostor v m2"
-              maxLength="5"
             />
             <button type="submit">Odeslat</button>
           </div>
